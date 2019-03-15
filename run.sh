@@ -12,12 +12,6 @@ time ./whole.gcc.o
 
 
 echo "-------------------------------------"
-echo "gcc + google"
-gcc main.gcc.s my_wcpcpy.google.s -o whole.hand-gcc.o
-time ./whole.hand-gcc.o
-
-
-echo "-------------------------------------"
 echo "gcc + stoke"
 gcc main.gcc.s my_wcpcpy.stoke.s -o whole.hand-gcc.o
 time ./whole.hand-gcc.o
