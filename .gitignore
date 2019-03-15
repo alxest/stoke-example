@@ -1,2 +1,3 @@
 *.o
-*.s
+main.gcc.s
+my_wcpcpy.gcc.s

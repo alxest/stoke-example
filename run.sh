@@ -1,5 +1,5 @@
 rm -f *.o
-rm -f *.s
+rm -f main.gcc.s my_wcpcpy.gcc.s
 
 OPT="-O3"
 
